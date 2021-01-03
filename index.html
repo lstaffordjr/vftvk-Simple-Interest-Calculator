@@ -1,4 +1,4 @@
-<DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
     <head>
     <script src="script.js"></script>
@@ -8,8 +8,9 @@
     <body>
        <title>Simple Interest Calculator</title>
         <div class = "maindiv">
+            <h1>Simple Interest Calculator</h1>
         Amount <input type="number"  id="principal">  <br/>
-        Rate <input onchange="showrate()" type="range"  id="rate" min="1" max="20" step="0.25" value=10.25> <span>"10.25%"</span> <br/>
+        Rate <input onchange="showrate()" type="range"  id="rate" min="1" max="20" step="0.25" value=10.25> <span>10.25%</span> <br/>
         No. of Years <select id="years" name="years">
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -26,8 +27,9 @@
             <button onclick="compute()">Compute Interest</button> <br>
         
         Interest : <span id="result"></span><br>
-            <footer>&copy; Everyone Can Get Rich </footer>
+            <footer>&copy; Everyone Can Get Rich 
+            </footer>
             
-            </div>
+                </div>
     </body>
 </html>
